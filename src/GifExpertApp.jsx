@@ -5,7 +5,7 @@ export const GifExpertApp = () => {
 
     //  API_KEY: jMEWMlcs2Noqb7OTJtLpjAfwMuoZOqaD
 
-    const [categories, setCategories] = useState(['One Punch', 'Dragon Ball'])
+    const [categories, setCategories] = useState([])
 
     const onAddCategory = (newCategory) => 
     {
